@@ -15,11 +15,11 @@ export const config = {
     },
     {
       title: "Company",
-      href: "https://zenn.dev/catnose99/articles/cb72a73368a547756862",
+      href: "https://dgut.edu.cn",
     },
     {
-      title: "GitHub",
-      href: "https://github.com/catnose99/team-blog-hub",
+      title: "HackTB",
+      href: "https://hacktb.com/",
     },
   ],
 };
