@@ -22,7 +22,7 @@ export const members: Member[] = [
     name: "嘻哈磕碜",
     role: "Researcher", // 角色默认标注为"Researcher"，需根据实际情况调整
     bio: "追求、源于热爱，而去感受，学习、生活、程序。", // 直接对应网页中的描述
-    avatarSrc: "嘻哈磕碜.png", // 网页未提供头像链接，留空
+    avatarSrc: "/avatars/嘻哈磕碜.png", // 网页未提供头像链接，留空
     sources: [""] // 网页未提供RSS等源链接，留空
 },
 {
