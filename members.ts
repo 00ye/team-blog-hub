@@ -2,12 +2,12 @@ import { Member } from "@src/types";
 
 export const members: Member[] = [
   {
-    id: "ota_naoko",
-    name: "太田 直子",
+    id: "L1nKGr",
+    name: "L1nKGr",
     role: "Researcher",
-    bio: "Some texts here",
+    bio: "深呼吸的时候，就能保持沉稳",
     avatarSrc: "/avatars/naoko.jpg",
-    sources: [],
+    sources: [https://blog.000k.de/rss],
   },
   {
     id: "alexandria",
