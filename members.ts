@@ -40,5 +40,5 @@ export const members: Member[] = [
   "bio": "山重水复疑无路,柳暗花明又一村", // 直接对应网页中的描述
   "avatarSrc": "", // 网页未提供头像链接，留空
   "sources": [""] // 网页未提供RSS等源链接，留空
-}
+},
 ];
