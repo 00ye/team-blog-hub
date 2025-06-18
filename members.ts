@@ -7,7 +7,7 @@ export const members: Member[] = [
     role: "Researcher",
     bio: "深呼吸的时候，就能保持沉稳",
     avatarSrc: "/avatars/naoko.jpg",
-    sources: [https://blog.000k.de/rss],
+    sources: ["https://blog.000k.de/rss"],
   },
   {
     id: "alexandria",
