@@ -1,7 +1,7 @@
 name: Trigger Vercel Build
 on:
   schedule:
-    - cron: '0 1 */2 * *' # At 00:05 on 星期二.
+    - cron: '0 1 */2 * *' #每两天后的一点.
   workflow_dispatch:  # 手动触发
 jobs:
   build:
