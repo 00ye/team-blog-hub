@@ -51,76 +51,7 @@ const Page: NextPage = () => {
     </div>
   </div>
 </section>
-.about {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem;
-}
 
-.about__header {
-  border-bottom: 1px solid #eee;
-  margin-bottom: 1.5rem;
-}
-
-.about__title {
-  color: #2c3e50;
-  font-size: 2rem;
-}
-
-.about__intro {
-  line-height: 1.6;
-  margin-bottom: 1.5rem;
-}
-
-.about__meta {
-  background: #f9f9f9;
-  padding: 1rem;
-  border-radius: 8px;
-  margin-bottom: 1.5rem;
-}
-
-.about__meta-label {
-  font-weight: 600;
-  color: #555;
-}
-
-.about__highlight {
-  color: #e74c3c;
-  font-weight: 600;
-}
-
-.about__link {
-  color: #3498db;
-  text-decoration: none;
-  margin: 0 0.3rem;
-}
-
-.about__link:hover {
-  text-decoration: underline;
-}
-
-.about__join {
-  display: inline-block;
-  margin-left: 10px;
-  padding: 2px 8px;
-  background: #e8f4fc;
-  border-radius: 4px;
-  color: #2980b9;
-}
-
-.about__subtitle {
-  color: #34495e;
-  margin: 1.2rem 0 0.8rem;
-}
-
-.about__code-block {
-  background: #2d2d2d;
-  color: #f8f8f2;
-  padding: 1rem;
-  border-radius: 6px;
-  overflow-x: auto;
-  font-size: 0.9rem;
-}
       </ContentWrapper>
     </>
   );
