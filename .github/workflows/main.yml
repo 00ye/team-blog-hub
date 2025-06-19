@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger build
-        run: curl -s -X POST "${{ secrets.VERCEL_BUILD_HOOK }}"
+        run: curl -s -X POST ${{ secrets.VERCEL_BUILD_HOOK }}
