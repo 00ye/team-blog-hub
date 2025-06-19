@@ -17,10 +17,20 @@ const Page: NextPage = () => {
               hacktb Team Blog Hub
               </a>
               <br/>
-              <a>目前负责维护本仓库:l1nkGr,</a>
+              <a>目前负责维护本仓库：l1nkGr,</a>
               <br/>
-              <a>项目仓库:https://github.com/00ye/team-blog-hub,欢迎合并加入</a>
+              <a>项目仓库：https://github.com/00ye/team-blog-hub</a>
+              <a>欢迎合并加入</a>
             </p>
+            <a>合并成员信息</a>
+            <code>
+    id: "L1nKGr",
+    name: "L1nKGr",
+    role: "Researcher",
+    bio: "深呼吸的时候，就能保持沉稳",
+    avatarSrc: "/avatars/l1nkGr.png",
+    sources: ["https://blog.000k.de/rss"],
+    </code>
           </div>
           
         </section>
