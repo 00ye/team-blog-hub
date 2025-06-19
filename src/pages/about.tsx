@@ -35,7 +35,7 @@ const Page: NextPage = () => {
     </div>
     
     <div className="about__members">
-      <h3 className="about__subtitle">合并成员信息</h3>
+      <h3 className="about__subtitle">合并成员例子，提交到members.ts</h3>
       <pre className="about__code-block">
         <code>
 {`{
