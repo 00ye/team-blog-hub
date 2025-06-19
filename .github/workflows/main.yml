@@ -1,14 +1,13 @@
 name: Trigger Vercel Build
+
 on:
   schedule:
-    - cron: '0 1 */2 * *' #每两天后的一点.
-  workflow_dispatch:  # 手动触发
+    - cron: '0 17 */2 * *'  # 每两天 UTC 时间 17:00 (北京时间次日 1:00)
+  workflow_dispatch:
+
 jobs:
   build:
-    name: Request Vercel Webhook
     runs-on: ubuntu-latest
     steps:
-      - name: Curl request
-        env:
-          VERCEL_BUILD_HOOK: ${{ secrets.VERCEL_BUILD_HOOK }}
-        run: curl -X POST ${{ secrets.VERCEL_BUILD_HOOK }}
+      - name: Trigger build
+        run: curl -s -X POST "${{ secrets.VERCEL_BUILD_HOOK }}"
