@@ -11,4 +11,4 @@ jobs:
       - name: Curl request
         env:
           VERCEL_BUILD_HOOK: ${{ secrets.VERCEL_BUILD_HOOK }}
-        run: curl -X POST https://api.vercel.com/v1/integrations/deploy/prj_YrgZ0B2rSRIYGBP2MosnrnRgB55b/POM8ngkn5x
+        run: curl -X POST ${{ secrets.VERCEL_BUILD_HOOK }}
