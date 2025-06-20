@@ -35,7 +35,7 @@ export const members: Member[] = [
   },
   {
     id: "cyi",
-    name: "肖锐浩",
+    name: "cyi",
     role: "V&N联合战队成员、WwW_D4T4战队队长",
     bio: "不以物喜，不以己悲",
     avatarSrc: "/avatars/cyi.png",
@@ -43,7 +43,7 @@ export const members: Member[] = [
   },
   {
     id: "HUPPE",
-    name: "张志航",
+    name: "HUPP",
     role: "Researcher",
     bio: "深呼吸的时候，就能保持沉稳",
     avatarSrc: "/avatars/HUPPE.jpg",
